@@ -8,7 +8,19 @@
 template <typename T>
 void array_delete(std::vector<T> &A, std::size_t index)
 {
-    // WRITE YOUR CODE HERE
+    int current = index;
+    bool done = False;
+    while (!done){
+
+        if (current==A.size()-1){
+            done=True;
+        }else{
+            A[current]=A[current+1]
+
+        }
+
+
+    }
 }
 
 #endif // __array_delete__
