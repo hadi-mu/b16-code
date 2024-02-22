@@ -12,6 +12,7 @@ void array_delete(std::vector<T> &A, std::size_t index)
     bool done = false;
     while (!done){
         if (current==(A.size()-1)){
+            A.erase(A.begin() + current);
             done=true;
         }else{
             A[current]=A[current+1];
