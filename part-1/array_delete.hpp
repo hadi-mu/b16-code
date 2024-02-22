@@ -9,13 +9,13 @@ template <typename T>
 void array_delete(std::vector<T> &A, std::size_t index)
 {
     int current = index;
-    bool done = False;
+    bool done = false;
     while (!done){
 
-        if (current==A.size()-1){
-            done=True;
+        if (current==(A.size()-1)){
+            done=true;
         }else{
-            A[current]=A[current+1]
+            A[current]=A[current+1];
 
         }
 
